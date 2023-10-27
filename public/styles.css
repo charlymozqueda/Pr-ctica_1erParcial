@@ -23,4 +23,27 @@
 
 .tarjeta{
     background-color:#87CEFA;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.boton{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.boton:hover{
+    background-color: blue;
+    color: #fff;
 }

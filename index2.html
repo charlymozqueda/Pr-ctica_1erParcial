@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOLRift</title>
-</head>
-<body>
-    <h1>Pagina Secundaria</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./public/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="public/styles.css">
+        <title>LOLRift</title>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-lg
+        bg-body-tertiary py-0">
+                <div class="container-fluid bg-dark-subtle p-3">
+                    <a href="index.html" class="navbar-brand marca">LOLRift</a>
+                    <div class="text-center"
+                        id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link color nav">Campeones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link color nav">Sabías
+                                    que...</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link color nav">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn rounded-fill"
+                                    onclick="cambiarTema()">
+                                    <i class="bi bi-moon"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <footer id="Footer" class="bg-dark text-white py-4">
+            <div class="container">
+                <nav class="row">
+                    <ul class="col-md-12 list-unstyled">
+                        <li class="text-uppercase text-center">Síguenos en
+                            nuestras Redes Sociales</li>
+                        <div>
+                            <li class="d-flex justify-content-between py-3">
+                                <a href="RSociales.html" class="text-reset"><i
+                                        class="bi bi-facebook"></i></a>
+                                <a href="RSociales.html" class="text-reset"><i
+                                        class="bi bi-twitter-x"></i></a>
+                                <a href="RSociales.html" class="text-reset"><i
+                                        class="bi bi-instagram"></i></a>
+                                <a href="RSociales.html" class="text-reset"><i
+                                        class="bi bi-pinterest"></i></a>
+                            </li>
+                        </div>
+                        <li class="text-center">Todos los derechos reservados</li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        <script src="./public/bootstrap/js/bootstrap.min.js">
+        </script>
+        <script src="funciones.js"></script>
+    </body>
 </html>
