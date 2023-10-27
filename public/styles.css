@@ -1,0 +1,22 @@
+.marca{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav{
+    font-size: 20px;
+}
+
+
+.frase{
+    padding: 160px;
+    background-image: url(./image/riven.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.color{
+    color:aqua;
+}
