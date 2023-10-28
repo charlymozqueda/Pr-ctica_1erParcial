@@ -17,6 +17,81 @@
     background-attachment: fixed;
 }
 
+.imagenv{
+    padding: 160px;
+    background-image: url(./image/Vayne.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.vayne{
+    padding: 160px;
+    background-image: url(./image/Vayne2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.vaynebg{
+    background-color: #C182F8;
+}
+.lucian{
+    padding: 160px;
+    background-image: url(./image/Lucian2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imagenl{
+    padding: 160px;
+    background-image: url(./image/Lucian.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lucianbg{
+    background-color: #F7625F;
+}
+
+.thresh{
+    padding: 160px;
+    background-image: url(./image/Thresh2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imagent{
+    padding: 160px;
+    background-image: url(./image/Thresh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.threshbg{
+    background-color: #9281E4;
+}
+
+.renata{
+    padding: 160px;
+    background-image: url(./image/Renata2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imagenr{
+    padding: 160px;
+    background-image: url(./image/Renata\ Glasc.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.renatabg{
+    background-color: #6C6EF1;
+}
+
 .color{
     color:aqua;
 }
